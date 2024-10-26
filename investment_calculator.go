@@ -8,7 +8,7 @@ import (
 func main() {
 
 	const inflationRate = 2.5
-	var investmentAmount float64 = 1000
+	var investmentAmount := 1000
 	expectedReturnRate := 5.5
 	years := 10.0
 
